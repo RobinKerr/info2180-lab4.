@@ -8,7 +8,7 @@ function setDivsToSquare(){
 	}
 }
 
-function setDivToXorY(){
+function setDivToXorO(){
 	const divs = document.querySelectorAll("#board > div");
 	for(let i = 0; i < divs.length; i++){
 		
@@ -110,7 +110,7 @@ function restartGame(){
 
 function startGame(){
 	setDivsToSquare();
-	setDivToXorY();
+	setDivToXorO();
 	mouseOver();
 	restartGame();
 }
