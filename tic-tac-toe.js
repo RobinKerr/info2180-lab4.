@@ -115,4 +115,4 @@ function startGame(){
 	restartGame();
 }
 
-window.onload = start;
+window.onload = startGame;
